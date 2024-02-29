@@ -1,0 +1,33 @@
+.anuncios {
+    margin: 4rem 21rem 4.5rem 21rem;
+}
+.anuncios__card {
+    margin: 0 auto;
+    border-radius: 1rem;
+    border: 1px solid var(--cinza-card);
+    padding-top: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.anuncios__titulo {
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+}
+
+.anuncios__subtitulo {
+    font-size: 1.12rem;
+    padding-left: 1.25rem;
+}
+
+.anuncios__informacoes {
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.75rem;
+    padding-left: 1.25rem;
+}
+
+.anuncios__informacoes-texto {
+    font-size: 1rem;
+    
+}

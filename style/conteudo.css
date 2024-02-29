@@ -1,0 +1,24 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+  }
+  
+  .conteudo__about {
+    font-size: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .conteudo__titulo {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .conteudo__texto {
+    font-size: 1.25rem;
+    padding: 0.75rem 0rem;
+    margin-bottom: 6rem;
+    width:50rem; 
+  }

@@ -1,0 +1,68 @@
+@import url(../style/nav.css);
+@import url(../style/conteudo.css);
+@import url(../style/metricas.css);
+@import url(../style/vagas.css);
+@import url(../style/anuncios.css);
+@import url(../style/depoimento.css);
+@import url(../style/rodape.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+    --branco: #FFFFFF;
+    --cinza-claro: #667085;
+    --cinza-escuro: #3A404E;
+    --cinza-card: #EAECF0;
+    --preto: #101828;
+    --vermelho-escuro: #8E2424;
+    --vermelho-fundo: rgba(142, 36, 36, 0.05);
+    --vermelho-card: rgba(195, 25, 25, 0.03);
+      font-size: 16px;
+    --fonte-principal: 'Inter', sans-serif;
+    --peso-regular: 400;
+    --peso-medio: 500;
+    --peso-semibold: 600;
+    --peso-bold:700;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  width: 100%;
+  height: 100vh;
+
+}
+
+.conteudo__about, .metricas__card-titulo, .vagas__alerta, .depoimento span {
+  color:var(--vermelho-escuro);
+}
+
+.links a, .conteudo__texto, .metricas__card-texto, .vagas__texto, .anuncios__informacoes-texto, .depoimento__card span, .rodape__subtitulo {
+  color: var(--cinza-claro);
+}
+
+.conteudo__titulo, .metricas__card-subtitulo, .vagas__titulo, .anuncios__titulo, .anuncios__subtitulo, .depoimento__titulo, .depoimento__card-texto, .rodape__titulo  {
+  color: var(--preto);
+}
+
+.conteudo__about, .conteudo__titulo, .metricas__card-titulo, .vagas__titulo, .depoimento span, .rodape__titulo {
+  font-weight: var(--peso-semibold);
+}
+
+.links a, .metricas__card-subtitulo, .vagas__alerta, .anuncios__titulo, .anuncios__subtitulo, .anuncios__informacoes-texto, .depoimento__titulo, .depoimento__card-texto  {
+  font-weight: var(--peso-medio);
+}
+
+.conteudo__texto, .metricas__card-texto, .vagas__texto, .depoimento__card span, .rodape__subtitulo {
+  font-weight: var(--peso-regular);
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+.metricas {
+  width: 100vw;
+  margin-bottom: 6rem;
+  }
+
+  .metricas__container {
+   margin: 0 5rem 6rem 5rem;
+   width: 80rem;
+  }
+
+  .metricas__container-cards {
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+
+  .metricas__container-cards-individual {
+    width: 17.5rem;
+    
+  }
+
+  .metricas__card-titulo {
+    font-size: 3.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .metricas__card-subtitulo {
+    font-size: 1.12rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .metricas__card-texto {
+    font-size: 1rem;
+    
+  }

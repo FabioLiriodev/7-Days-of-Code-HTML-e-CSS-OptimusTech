@@ -1,0 +1,28 @@
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: var(--peso-medio);
+    background: none;
+    color: var(--cinza-claro);
+    font-size: 1rem;
+  }
+  
+  button#signUp {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+  }

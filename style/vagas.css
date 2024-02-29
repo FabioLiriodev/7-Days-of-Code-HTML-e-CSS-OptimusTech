@@ -1,0 +1,36 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .vagas__background {
+    background-color: var(--vermelho-fundo);
+    border-radius: 1rem;
+    width: 7.81rem;
+    height: 1.75rem;
+  }
+  
+  .vagas__alerta {
+    font-size: 0.87rem;
+    padding: 0.25rem 0.75rem;
+    height: 1.25rem;
+    }
+  
+  .vagas__titulo {
+    font-size: 2.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+  
+  }
+  
+  .vagas__texto {
+    font-size: 1.25rem;
+    padding-bottom: 4rem;
+  }
+  
+  .vagas__imagem {
+    width: 76rem;
+    height: 25rem;
+  }
